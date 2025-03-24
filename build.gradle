@@ -30,6 +30,11 @@ dependencies {
     implementation 'wsdl4j:wsdl4j:1.6.3'
 	// https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
 	implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+	implementation 'com.mysql:mysql-connector-j:9.0.0'
+	// https://mvnrepository.com/artifact/org.springframework.retry/spring-retry
+	implementation 'org.springframework.retry:spring-retry:1.0.3.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework/spring-aspects
+	implementation 'org.springframework:spring-aspects:6.2.5'
 }
 
 tasks.named('test') {
